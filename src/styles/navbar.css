@@ -1,0 +1,27 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 9px;
+  /* padding: 10px; */
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.contact {
+  background-color: white;
+  border: none;
+}
+
+.signup {
+  background-color: #ff9900;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 3px 15px;
+}

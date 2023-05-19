@@ -1,0 +1,59 @@
+.trending {
+  position: fixed;
+  /* top: 0; */
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #666666;
+  color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.title {
+  text-align: center;
+}
+
+.trending h2 {
+  margin-top: 0;
+}
+
+.trending ul {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.trending .song-item {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trending .view-more-button {
+  background-color: #ff9900;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+}
+
+.trending .plus-sign {
+  margin-left: 5px; /* Adjust the margin as needed */
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.trending .artist-name {
+  font-style: italic;
+  margin-right: 50px;
+}
